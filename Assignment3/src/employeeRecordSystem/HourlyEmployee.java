@@ -17,22 +17,16 @@ public class HourlyEmployee extends Employee {
 		this.hourlyRate = hourlyRate;
 	}
 	
-	public HourlyEmployee(String name,int type,int hoursWorked,double hourlyRate) {
-		super(name,type);
+	public HourlyEmployee(String name,int id,double salary,double rate,int hoursWorked) {
+		super(name,id,salary,rate);
 		this.hoursWorked=hoursWorked;
-		this.hourlyRate=hourlyRate;
+		
 	}
 	@Override
-	public double getEmployeeSalary() {
-		// TODO Auto-generated method stub
-		return hoursWorked*hourlyRate;
-	}
-	
-	@Override
-	public void setEmployeeSalary(double incrementInterest)
-	{
-		this.hourlyRate=this.hourlyRate+((this.getHourlyRate()*incrementInterest)/100);
-	}
+	public double getPayment() {
+		this.setSalary(this.getRate()*this.hoursWorked);
+		return this.getSalary();
+	}	
 	
 	
 }

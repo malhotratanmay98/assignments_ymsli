@@ -2,27 +2,74 @@ package employeeRecordSystem;
 
 public class Invoice implements Payable {
 
-	private int invoiceId;
-	private String name;
-	private double ratePerDay;
-	private int noOfDays;
-	
-	public Invoice(int invoiceId, String name, double ratePerDay, int noOfDays) {
-		this.invoiceId = invoiceId;
-		this.name = name;
-		this.ratePerDay = ratePerDay;
-		this.noOfDays=noOfDays;
+	private String partNum;
+	private String partDescription;
+	private int quantity;
+	private double pricePerItem;
+
+	public Invoice(String partNum, String partDescription, int quantity, double pricePerItem) {
+		super();
+		this.partNum = partNum;
+		this.partDescription = partDescription;
+		this.quantity = quantity;
+		this.pricePerItem = pricePerItem;
 	}
-	
-	public void printInvoiceDetails() {
-		System.out.println("invoiceId: "+ invoiceId);
-		System.out.println("name: "+ name);
-		System.out.println("ratePerDay: "+ ratePerDay);
-		System.out.println("noOfDays: "+ noOfDays);
+
+	public String getPartNum() {
+		return partNum;
 	}
+
+	public void setPartNum(String partNum) {
+		this.partNum = partNum;
+	}
+
+	public String getPartDescription() {
+		return partDescription;
+	}
+
+	public void setPartDescription(String partDescription) {
+		this.partDescription = partDescription;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public double getPricePerItem() {
+		return pricePerItem;
+	}
+
+	public void setPricePerItem(double pricePerItem) {
+		this.pricePerItem = pricePerItem;
+	}
+
+	// using toString() method
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Invoice \n partNum: ").append(partNum).append("\n part Description: ").append(partDescription)
+				.append("\n quantity=").append(quantity).append("\n pricePerItem=").append(pricePerItem);
+		return builder.toString();
+	}
+
+//	public void printInvoiceDetails() {
+//		System.out.println("partNum "+ partNum);
+//		System.out.println("partDescription "+ partDescription);
+//		System.out.println("Quantity"+quantity);
+//		System.out.println("Description "+ partDescription);
+//		System.out.println("Price per Item "+ pricePerItem);
+//	}
+
+	// implementing the same Payable interface for Invoice as well
+	// Invoice and Employee was not relatred at all,but one thing was common
+	// ie the getPayment method.So we created Payable interface
 
 	@Override
 	public double getPayment() {
-		return 0.9*ratePerDay*noOfDays;
+		return pricePerItem * quantity;
 	}
 }

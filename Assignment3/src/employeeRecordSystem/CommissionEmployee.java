@@ -21,23 +21,17 @@ public class CommissionEmployee extends Employee {
 		this.sales = sales;
 	}
 
-	public CommissionEmployee(String name,int id,double percent,double sales) {
-		super(name,id);
+	public CommissionEmployee(String name,int id,double salary,double rate,double percent,double sales) {
+		super(name,id,salary,rate);
 		this.percent=percent;
 		this.sales=sales;
 	}
 	
+	
 	@Override
-	public double getEmployeeSalary() {
-		// TODO Auto-generated method stub
-		return (percent*sales)/100;
+	public double getPayment() {
+		this.setSalary(this.getSales()*this.getPercent()/100);
+		return this.getSalary();
 	}
-
-	@Override
-	public void setEmployeeSalary(double percentageOfSales)
-	{
-		this.sales=(int) ((this.sales*percentageOfSales)/100);
-	}
-
 	
 }

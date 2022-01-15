@@ -1,28 +1,28 @@
+//Merged code of Question1 and Question2
+
 package employeeRecordSystem;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class EmployeeMain {
 public static void main(String[] args) {
-	int choice=1;
-	while(choice!=0) {
-		
-		System.out.println("Please select your choice");
-		System.out.println("1.Get Weekly Salary 2.Set Rate of Employee ");
-		Scanner scn=new Scanner(System.in);
-		choice=scn.nextInt();
-		Employee emp=new SalariedEmployee(1,"Tanmay",500,40);
-		Employee emp2=new HourlyEmployee("Anurag",2,45,100);
-		
-		System.out.println(emp.getName());
-		System.out.println(emp.getId());
-		System.out.println(emp.getEmployeeSalary());
-		
-		System.out.println(emp2.getName());
-		System.out.println(emp2.getId());
-		System.out.println(emp2.getEmployeeSalary());
-
-	}
+	ArrayList<Employee> employees = new ArrayList<Employee>(); 
 	
+	Employee emp = new SalariedEmployee("Tanmay",1,55000,1600);
+	Employee emp1 = new HourlyEmployee("Harshit",2,10000,100,40);
+	Employee emp2 = new CommissionEmployee("Abhinav",3,8000,120,10,1000);
+	
+	employees.add(emp);
+	employees.add(emp1);
+	employees.add(emp2);
+	
+	System.out.println("Total Employees in the company: "+employees.size());
+	Invoice invoice = new Invoice("212A2","Yamaha Engine Turbo",4,80000);
+	
+	System.out.println(emp.getName() + " has a salary of: "+emp.getPayment());
+	System.out.println(emp1.getName() + " has a salary of: "+emp1.getPayment());
+	System.out.println(emp2.getName() + " has a salary of: "+emp2.getPayment());
+	System.out.println(invoice + "\n Total Expense: "+invoice.getPayment());
 }
 }
