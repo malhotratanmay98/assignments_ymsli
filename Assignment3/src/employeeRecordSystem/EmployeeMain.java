@@ -10,8 +10,8 @@ public static void main(String[] args) {
 	ArrayList<Employee> employees = new ArrayList<Employee>(); 
 	
 	Employee emp = new SalariedEmployee("Tanmay",1,55000,1600);
-	Employee emp1 = new HourlyEmployee("Harshit",2,10000,100,40);
-	Employee emp2 = new CommissionEmployee("Abhinav",3,8000,120,10,1000);
+	Employee emp1 = new HourlyEmployee("Harshit",2,18000,450,40);
+	Employee emp2 = new CommissionEmployee("Abhinav",3,8000,120,12,190);
 	
 	employees.add(emp);
 	employees.add(emp1);
