@@ -6,16 +6,10 @@ abstract class Employee implements Payable {
 
 	private String name;
 	private int id;
-	private double salary;
 	private double rate;
+	private double salary;
 	
-	public double getSalary() {
-		return salary;
-	}
 
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
 
 	public double getRate() {
 		return rate;
@@ -41,6 +35,16 @@ abstract class Employee implements Payable {
 
 	public void setId(int id) {
 		this.id =id;
+	}
+	
+	
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
 	}
 
 	//constructor
