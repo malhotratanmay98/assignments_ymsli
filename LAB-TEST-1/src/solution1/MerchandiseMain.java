@@ -27,7 +27,12 @@ public class MerchandiseMain {
 		} catch (IOException ex) {
 			ex.printStackTrace();
 		}
-		merchandiseList.forEach((M) -> System.out.println(M));
+		
+		//merchandiseList.forEach((M) -> System.out.println(M));
+		
+		for(Merchandise m: merchandiseList) {
+			System.out.println(m);
+		}
 		
 		System.out.println("******Sorted in ascending order by name********");
 		Collections.sort(merchandiseList,new ItemCodeComparator());

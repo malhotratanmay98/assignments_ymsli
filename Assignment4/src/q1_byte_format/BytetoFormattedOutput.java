@@ -27,7 +27,7 @@ public static void main(String[] args) {
 
 
 
-//data inputstram for printing the output on console
+//data inputstream for printing the output on console
 try {
 	DataInputStream dis=new DataInputStream(new FileInputStream("foo.txt"));
 	for(int i=0;i<10; i++) {
