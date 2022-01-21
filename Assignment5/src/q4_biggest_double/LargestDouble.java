@@ -20,7 +20,7 @@ public class LargestDouble {
 	}
 
 	public static void main(String[] args) {
-		ArrayList<Double> list = new ArrayList<Double>();
+		List<Double> list = new ArrayList<Double>();
 
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("data.txt"));
