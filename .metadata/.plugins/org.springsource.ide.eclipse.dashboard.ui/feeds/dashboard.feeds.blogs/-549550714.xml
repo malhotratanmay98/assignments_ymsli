@@ -5,7 +5,76 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-01-20T15:25:35Z</updated>
+  <updated>2022-01-24T14:47:29Z</updated>
+  <entry>
+    <title>Spring Initializr 0.12.0 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/01/24/spring-initializr-0-12-0-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2022-01-24:4682</id>
+    <updated>2022-01-24T14:47:29Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Initializr 0.12.0 has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-io/initializr/releases/tag/v0.12.0"&gt;10 fixes, improvements and dependency upgrades&lt;/a&gt;.&lt;br/&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;p&gt;For full &lt;a href="https://github.com/spring-io/initializr/wiki/Spring-Initializr-0.12-Release-Notes#upgrading-from-initializr-011"&gt;upgrade instructions&lt;/a&gt; and &lt;a href="https://github.com/spring-io/initializr/wiki/Spring-Initializr-0.12-Release-Notes#new-and-noteworthy"&gt;new and noteworthy&lt;/a&gt; features please see the &lt;a href="https://github.com/spring-io/initializr/wiki/Spring-Initializr-0.12-Release-Notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-io/initializr"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/initializr/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/initializr/docs/0.12.0/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-initializr"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-io/initializr"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 3.0.0-M1 is now available</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2022-01-20:4681</id>
+    <updated>2022-01-20T23:00:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;3.0.0-M1&lt;/code&gt; has been released and is now available from &lt;a href="https://repo.spring.io/milestone"&gt;https://repo.spring.io/milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This milestone starts our exciting journey to the next generation of the Spring Framework and raises our baseline from Java 8 to Java 17. We are planning to release a new milestone of Spring Boot 3.0 every two months. M2 should arrive on March 24 and we are planning on a GA release in late November.&lt;/p&gt;
+&lt;p&gt;If you are trying an existing application with Spring Boot 3.0 you&amp;rsquo;ll need to be aware that we&amp;rsquo;ve migrated all Java EE APIs to their equivalent Jakarta EE variant. For most users, this means you&amp;rsquo;ll need to replace any &lt;code&gt;javax&lt;/code&gt; imports with &lt;code&gt;jakarta&lt;/code&gt;. For example, &lt;code&gt;javax.servlet.Filter&lt;/code&gt; would be replaced with &lt;code&gt;jakarta.servlet.Filter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re still waiting for a few third-party libraries to release Jakarta EE compatible versions, so not all Spring Boot 2.x features are available with this first milestone. We plan to reintroduce features as and when libraries provide appropriate releases.&lt;/p&gt;
+&lt;p&gt;Please see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0.0-M1-Release-Notes"&gt;release notes&lt;/a&gt; for more details and upgrade instructions.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in trying this new release, you can easily generate a project from &lt;a href="https://start.spring.io"&gt;start.spring.io&lt;/a&gt;.&lt;br/&gt;Thanks to all those who have contributed with issue reports and pull requests. &lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/3.0.0-M1/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: RedHat's Kate Stanley on the distinction between traditional brokers and Apache Kafka</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/01/20/a-bootiful-podcast-redhat-s-kate-stanley-on-the-distinction-between-traditional-brokers-and-apache-kafka" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-01-20:4680</id>
+    <updated>2022-01-20T20:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to returning guest RedHat&amp;rsquo;s &lt;a href="https://twitter.com/KateStanley91"&gt;Kate Stanley (@KateStanley91)&lt;/a&gt; on the distinction between traditional brokers and Apache Kafka.&lt;/p&gt;
+&lt;iframe title="RedHat’s Kate Stanley on the distinction between traditional brokers and Apache Kafka" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=6knsk-1184ba0-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.7.0-M1 is now available</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/01/20/spring-boot-2-7-0-m1-is-now-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Scott Frederick</name>
+    </author>
+    <id>tag:spring.io,2022-01-20:4679</id>
+    <updated>2022-01-20T19:57:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.7.0-M1&lt;/code&gt; has been released and is now available from &lt;a href="https://repo.spring.io/milestone"&gt;https://repo.spring.io/milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.7.0-M1"&gt;111 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Notable new features include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring GraphQL starter&lt;/li&gt;
+  &lt;li&gt;Operating system and Java vendor information in actuator info endpoint&lt;/li&gt;
+  &lt;li&gt;Support for RabbitStreamTemplate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.7.0-M1-Release-Notes"&gt;release notes&lt;/a&gt; for more details and upgrade instructions.&lt;/p&gt;
+&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests. &lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.7.0-M1/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Boot 2.6.3 is now available</title>
     <link rel="alternate" href="https://spring.io/blog/2022/01/20/spring-boot-2-6-3-is-now-available" />
@@ -529,10 +598,10 @@ There are many levels on which you may choose to implement the desired behavior.
       <name>Andy Wilkinson</name>
     </author>
     <id>tag:spring.io,2022-01-17:4670</id>
-    <updated>2022-01-17T13:39:47Z</updated>
+    <updated>2022-01-17T13:39:00Z</updated>
     <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring REST Docs &lt;code&gt;2.0.6.RELEASE&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
 &lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-restdocs/releases/tag/v2.0.6.RELEASE"&gt;18 bug fixes and documentation improvements&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-restdocs/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-restdocs/docs/2.0.6.RELEASE/reference/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-restdocs"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-restdocs"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-restdocs/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-restdocs/docs/2.0.6.RELEASE/reference/html5"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-restdocs"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-restdocs"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
   <entry>
@@ -693,134 +762,6 @@ There are many levels on which you may choose to implement the desired behavior.
     <updated>2022-01-06T18:00:00Z</updated>
     <content type="html">&lt;p&gt;Hi, Spring fans, and happy new year! In this installment, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to Spring Cloud co-founder, legend, and the all-around nice guy &lt;a href="https://twitter.com/spencerbgibb"&gt;Spencer Gibb (@spencerbgibb)&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe title="Spring Cloud cofounder Spencer Gibb (and happy new year!)" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=4f3rq-1171913-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Introducing Spring Integration Groovy DSL</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/01/06/introducing-spring-integration-groovy-dsl" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2022-01-06:4663</id>
-    <updated>2022-01-06T17:47:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Happy New Year, Spring community!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Hope you had great holidays and ready for new excitements in front of us.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;After the rest and recharging during Christmas break I decided to pay honor to my favorite language back in days - Groovy.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;And now it&amp;#8217;s my pleasure to present you a brand new Groovy DSL for Spring Integration.
-You perhaps heard about our &lt;a href="https://spring.io/blog/2012/11/06/a-groovy-dsl-for-spring-integration"&gt;old attempt&lt;/a&gt; to make a Groovy DSL on top of Spring Integration XML support.
-But the solution was pretty cumbersome (especially for protocol-specific channel adapters) and support burden has grown tremendously.
-This my latest implementation is fully based on already mature Java DSL and its builder pattern support.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Having 10 years experience with Gradle I thought that it is going be easy enough for me to prepare quickly something what just extends an &lt;code&gt;IntegrationFlowDefinition&lt;/code&gt; and exposes a Groovy builder style for definition.
-Turns out just using a language and engineering a DSL on top of it are different tasks, and I had to start learning respective Groovy aspects from a scratch.
-A &lt;a href="https://musketyr.medium.com/groovy-dsl-builders-1-the-concept-2d5a97fa0a51"&gt;series of blog posts&lt;/a&gt; by Vladimír Oraný gave me a good source of information what and how should be used and done to make end-user experience with Groovy DSL as best as possible.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Including the current success of existing &lt;a href="https://docs.spring.io/spring-integration/docs/current/reference/html/kotlin-dsl.html#kotlin-dsl"&gt;Kotlin DSL for Spring Integration&lt;/a&gt;, so far I ended up with a couple Groovy classes.
-The &lt;code&gt;IntegrationGroovyDsl&lt;/code&gt; as a factory for &lt;code&gt;static integrationFlow()&lt;/code&gt; methods to be imported to the target project and delegation to the well-knows &lt;code&gt;IntegrationFlows.from()&lt;/code&gt; factories.
-And the &lt;code&gt;GroovyIntegrationFlowDefinition&lt;/code&gt; as a wrapper around &lt;code&gt;IntegrationFlowDefinition&lt;/code&gt; delegate.
-Both classes heavily leverage a Groovy first class citizen - &lt;code&gt;groovy.lang.Closure&lt;/code&gt;, with a &lt;code&gt;@DelegatesTo&lt;/code&gt; and &lt;code&gt;@ClosureParams&lt;/code&gt; features to support IDE suggestions and auto-completion.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;So, all you need is to have a &lt;code&gt;org.springframework.integration:spring-integration-groovy-dsl:0.0.1&lt;/code&gt; dependency, add an &lt;code&gt;import static org.springframework.integration.dsl.IntegrationGroovyDsl.integrationFlow&lt;/code&gt; and start typing your &lt;code&gt;IntegrationFlow&lt;/code&gt; bean in a nice Groovy style.
-And this is how it looks so far in my IntelliJ IDEA:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="imageblock"&gt;
-&lt;div class="content"&gt;
-&lt;img src="https://raw.githubusercontent.com/spring-projects/spring-integration-extensions/main/samples/Groovy_DSL_in_IDEA.PNG" alt="Groovy DSL in IDEA"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;div class="title"&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-After learning those &lt;code&gt;@DelegatesTo&lt;/code&gt; and &lt;code&gt;@ClosureParams&lt;/code&gt;, I realized that Kotlin also provides a nice feature for better IDE experience.
-So, the next Spring Integration &lt;code&gt;5.5.8&lt;/code&gt; version (due to in the middle of January) also includes an &lt;code&gt;@IntegrationDsl&lt;/code&gt; marker annotation.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;You can find more samples in the project &lt;a href="https://github.com/spring-projects/spring-integration-extensions/tree/main/spring-integration-groovy-dsl"&gt;README&lt;/a&gt; and respective &lt;a href="https://github.com/spring-projects/spring-integration-extensions/blob/main/spring-integration-groovy-dsl/src/test/groovy/org/springframework/integration/dsl/test/GroovyDslTests.groovy"&gt;Spock tests&lt;/a&gt;.
-If project matures, eventually it may go directly to &lt;code&gt;spring-integration-core&lt;/code&gt;.
-We also may override those &lt;code&gt;IntegrationGroovyDsl&lt;/code&gt; and &lt;code&gt;GroovyIntegrationFlowDefinition&lt;/code&gt; Groovy classes to Java (it&amp;#8217;s just a DSL API anyway!), however I believe the &lt;code&gt;@CompileStatic&lt;/code&gt; Groovy feature should be enough to optimize compiled byte code in the end.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Give it a try and any feedback is welcome!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Cheers,&amp;#160;&lt;br&gt;
-Artem&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-integration-extensions"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration-extensions/issues"&gt;GitHub Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/main/CONTRIBUTING.adoc"&gt;Contributing&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-integration"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-integration"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework CVE-2021-22060 has been published</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/01/05/spring-framework-cve-2021-22060-has-been-published" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Rossen Stoyanchev</name>
-    </author>
-    <id>tag:spring.io,2022-01-06:4662</id>
-    <updated>2022-01-06T00:00:00Z</updated>
-    <content type="html">&lt;p&gt;The Spring Framework 5.3.14 and 5.2.19 &lt;a href="https://spring.io/blog/2021/12/16/spring-framework-5-3-14-and-5-2-19-available-now"&gt;releases on December 16&lt;/a&gt; included fixes for &lt;a href="https://tanzu.vmware.com/security/cve-2021-22060"&gt;CVE-2021-22060&lt;/a&gt; and are a follow-up to &lt;a href="https://tanzu.vmware.com/security/cve-2021-22096"&gt;CVE-2021-22096&lt;/a&gt;, to address additional types of input that can cause the issue. As the Spring Boot releases 2.6.2 and 2.5.8 picking up these Spring Framework versions were due the day before Christmas and given the medium severity, we postponed the announcement until after the new year, to avoid disclosure during a period when many take time off. Please, upgrade to those latest maintenance releases.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring (11 year anniversary edition!) - January 4th, 2022</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/01/04/this-week-in-spring-11-year-anniversary-edition-january-4th-2022" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-01-04:4661</id>
-    <updated>2022-01-04T11:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;, the first in the new year! (Happy new year!) This week also marks the 11th anniversary of &lt;em&gt;This Week in Spring&lt;/em&gt;, which I started writing on the first Tuesday of January 2011 thanks to a great idea from SpringSource co-founder and all-around good-guy &lt;a href="https://twitter.com/kdonald"&gt;Keith Donald (@kdonald)&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;What a run! As always, I just wanna extend a heartfelt thanks to all of you who read (_suffer!_) my rambling writing every week. We&amp;rsquo;ve been lucky, as a community, to have presided over the most amazing and uplifting period in Spring and the JVM&amp;rsquo;s history&amp;hellip; This roundup has reflected that with incredible stuff happening &lt;em&gt;all the time&lt;/em&gt;. Where there&amp;rsquo;s smoke, there&amp;rsquo;s fire. The many blogs, articles, podcasts, YouTube (and ever so occasionally Vimeo) videos, etc., are interesting in themselves, but they also signal interesting developments in the ecosystem, which is even more interesting! Rock on, community! &lt;/p&gt;
-&lt;p&gt;You know, even the number, the numeral itself - 11 - changes things. In English prose, it&amp;rsquo;s customary to spell out numbers that are less than 10. So, &amp;ldquo;one,&amp;rdquo; &amp;ldquo;two,&amp;rdquo; etc. Some style guides include &amp;ldquo;ten,&amp;rdquo; too. But 11, well, I can just &lt;em&gt;write&lt;/em&gt; 11. Who&amp;rsquo;s gonna stop me? The &lt;em&gt;New York Times Style Guide&lt;/em&gt;? Too late, I already checked it!! That&amp;rsquo;s one less grammar grievance, one less &lt;em&gt;style snafu&lt;/em&gt;, if you will, to be found in this blog! You ever pop a zit, pay off a credit (or technical) debt, or clean your house and just felt this overwhelming satisfaction? Like Marie Kondo says, you gotta throw it out if it does not &lt;em&gt;spark joy&lt;/em&gt;. And having to wrangle with the numerals for the number of years of this blog? Well, it definitely did &lt;strong&gt;not&lt;/strong&gt; spark joy.&lt;/p&gt;
-&lt;p&gt;But &lt;em&gt;you&lt;/em&gt; spark joy, my friends. &lt;em&gt;Thank you&lt;/em&gt; again for making this work so valuable. Without community, there&amp;rsquo;s no point in a community roundup, is there? &lt;em&gt;You&lt;/em&gt; are the reason for the season (Spring)! So, as always, I&amp;rsquo;m happy to hear about the latest-and-greatest that you feel worthy of inclusion: hit me up anytime (&lt;a href="https://twitter.com/starbuxman"&gt;@starbuxman&lt;/a&gt;) or &lt;a href="mailto:josh@joshlong.com"&gt;&lt;a href="mailto:&amp;#106;&amp;#111;&amp;#115;&amp;#x68;&amp;#64;j&amp;#x6f;&amp;#115;&amp;#104;&amp;#x6c;&amp;#111;&amp;#x6e;&amp;#103;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;"&gt;&amp;#106;&amp;#111;&amp;#115;&amp;#x68;&amp;#64;j&amp;#x6f;&amp;#115;&amp;#104;&amp;#x6c;&amp;#111;&amp;#x6e;&amp;#103;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;&lt;/a&gt;! &lt;/p&gt;
-&lt;p&gt;And now, without further ado, let&amp;rsquo;s get to this week&amp;rsquo;s roundup! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I love this! MyBatis Spring committer Kazuki Shimizu has created &lt;a href="https://github.com/kazuki43zoo/mybatis-spring-native"&gt;a prototypical Spring Native integration for MyBatis here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;In last week&amp;rsquo;s installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, &lt;a href="https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder"&gt;I talked to Geertjan Wielenga, senior director of opensource projects at Azul Systems and Foojay.io founder&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://thecodeshewrites.wordpress.com/2021/11/26/deploying-a-java-spring-boot-angular-application-in-the-cloud-comparison-of-the-providers/"&gt;Deploying a Java-Spring Boot-Angular application in the Cloud: comparison of the providers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Want to use GraalVM on Github Actions? There&amp;rsquo;s &lt;em&gt;Action&lt;/em&gt; for that! &lt;a href="https://github.com/marketplace/actions/github-action-for-graalvm"&gt;GitHub Action for GraalVM - GitHub Marketplace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/29/go-go-graalvm-with-spring-native-my-adventures-in-native-image-ville"&gt;Go, Go, GraalVM with Spring Native: My Adventures in Native Image-ville&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blog.jooq.org/how-to-customise-a-jooq-configuration-that-is-injected-using-spring-boot/"&gt;How to customise a jOOQ Configuration that is injected using Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://vladmihalcea.com/keyset-pagination-spring/"&gt;Keyset Pagination with Spring&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://vladmihalcea.com/custom-spring-data-repository/"&gt;The best way to write a custom Spring Data Repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://piotrminkowski.com/2021/12/30/vault-on-kubernetes-with-spring-cloud/"&gt;Vault on Kubernetes with Spring Cloud - Piotr&amp;rsquo;s TechBlog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2021/12/minecrafts-jdk16-migration/?utm_campaign=infoq_content&amp;utm_source=twitter&amp;utm_medium=feed&amp;utm_term=java"&gt;End Of Year Learnings From Minecraft’s Migration To JDK 16 And Q&amp;amp;A with the Mojang Team &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Geertjan Wielenga, senior director of opensource projects at Azul Systems and Foojay.io founder</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/12/30/a-bootiful-podcast-geertjan-wielenga-senior-director-of-opensource-projects-at-azul-systems-and-foojay-io-founder" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-12-31:4660</id>
-    <updated>2021-12-30T10:25:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks (again!) to &lt;a href="https://twitter.com/java"&gt;Java&lt;/a&gt; ecosystem legend and senior director of opensource projects at &lt;a href="https://twitter.com/AzulSystems"&gt;Azul Systems&lt;/a&gt;, &lt;a href="https://twitter.com/GeertjanW"&gt;Geertjan Wielenga (@GeertjanW)&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Happy new year, everyone! &lt;/p&gt;
-&lt;iframe title="Geertjan Wielenga, senior director of opensource projects at Azul Systems and Foojay.io founder" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=u8whw-1168d85-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
