@@ -11,4 +11,12 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.bookapp.model.exceptions.BookNotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.bookapp.model.persistance.Book"/>
+<fullyQualifiedTypeName name="com.bookapp.model.persistance.BookDao"/>
+<fullyQualifiedTypeName name="com.bookapp.model.persistance.BookDaoImpl"/>
+<fullyQualifiedTypeName name="com.bookapp.model.service.BookService"/>
+<fullyQualifiedTypeName name="com.bookapp.model.service.BookServiceImpl"/>
 </qualifiedTypeNameHistroy>

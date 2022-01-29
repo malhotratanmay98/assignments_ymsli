@@ -33,17 +33,27 @@ public class CalculateSum {
 		Thread thread3 = new Thread(job, "t3");
 		Thread thread4 = new Thread(job, "t4");
 		Thread thread5 = new Thread(job, "t5");
-		thread1.start();
-		thread2.start();
-		thread3.start();
-		thread4.start();
-		thread5.start();
 		try {
-			thread1.join();
-			thread2.join();
-			thread3.join();
-			thread4.join();
-			thread5.join();
+		thread1.start();		//join will ensure that first thread will occur first , after that second...
+		thread1.join();
+		
+		
+		thread2.start();
+		thread2.join();
+		
+		
+		thread3.start();
+		thread3.join();
+		
+		
+		thread4.start();
+		thread4.join();
+		
+		
+		thread5.start();
+		thread5.join();
+			
+			
 			System.out.println("Sum of the 5 numbers is :" + job.getSum());
 		} catch (InterruptedException e) {
 			e.printStackTrace();

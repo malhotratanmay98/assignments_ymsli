@@ -9,7 +9,7 @@ class Singleton {
 	}
 
 	public static synchronized Singleton getSingletonObject() {
-		// double locking policy
+		
 		if (singleton != null) {
 			throw new IllegalStateException();
 		}
