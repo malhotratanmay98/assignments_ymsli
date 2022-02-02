@@ -19,7 +19,7 @@ public class BookAppTester {
 		Book book=new Book(2,"12ab3", "The Great Gatsby", "F. Scott Fitzgerald", 599.00);
 		bookService.addBook(book);
 //		
-//		System.out.println("printing all emp after add one more emp");
+//		System.out.println("printing all books after adding one more book");
 //		printAllEmps(BookService);
 		
 		//Book book=bookService.getById(1);
