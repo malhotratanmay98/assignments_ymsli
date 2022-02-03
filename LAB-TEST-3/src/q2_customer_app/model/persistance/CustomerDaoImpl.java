@@ -40,7 +40,7 @@ private Connection connection;
 		
 		Customer tempCustomer=null;
         try {
-            PreparedStatement pstmt=connection.prepareStatement("select * from book where id=?");
+            PreparedStatement pstmt=connection.prepareStatement("select * from customer where id=?");
             pstmt.setInt(1, id);
             ResultSet rs=pstmt.executeQuery();
             if(rs.next()) {
